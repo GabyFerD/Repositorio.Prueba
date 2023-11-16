@@ -1,3 +1,98 @@
-body {
+* {
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Judson&family=Kreon&display=swap");
+
+.titleHeader {
+  font-family: "Kreon", sans-serif;
+  margin: 0;
+}
+
+.subtitle {
+  font-family: "Judson", sans-serif;
+}
+.subUno::before {
+  content: "<";
+}
+
+.subUno::after {
+  content: ">";
+}
+
+.divSub {
+  border: 2px solid #8c54fb;
+  background: linear-gradient(to right, #e76a7f, #190428);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+p {
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 15vh;
+  position: fixed;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  width: 30vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+main {
+  padding-top: 20vh;
+}
+img {
+  width: 30%;
+  height: 30%;
+  border-radius: 10%;
+  display: block;
+  margin: 0 auto;
+}
+.hover {
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.hover:hover {
+  background-color: rgb(33, 126, 145);
+  padding: 15px;
+}
+
+.hover:active {
   background-color: blueviolet;
+  color: rgb(107, 7, 7);
+}
+
+.formulario {
+  background-color: rgb(232, 206, 172);
+  padding: 5vh;
+}
+.focus {
+  padding: 5px 10px;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+}
+.focus:focus {
+  background-color: rgb(196, 173, 145);
+  color: black;
 }
