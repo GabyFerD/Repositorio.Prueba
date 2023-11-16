@@ -20,14 +20,6 @@
   content: ">";
 }
 
-.divSub {
-  border: 2px solid #8c54fb;
-  background: linear-gradient(to right, #e76a7f, #190428);
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-}
-
 p {
   font-family: "Hind Siliguri", sans-serif;
 }
@@ -56,16 +48,27 @@ li {
   list-style-type: none;
 }
 
-main {
-  padding-top: 20vh;
+.divSub {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.749);
 }
-img {
-  width: 30%;
-  height: 30%;
-  border-radius: 10%;
-  display: block;
-  margin: 0 auto;
+
+.subUno {
+  background: linear-gradient(to right, #cdb2c2, #ff0099);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: 900;
+  text-align: center;
 }
+
 .hover {
   background-color: aqua;
   border-radius: 10px;
@@ -82,10 +85,6 @@ img {
   color: rgb(107, 7, 7);
 }
 
-.formulario {
-  background-color: rgb(232, 206, 172);
-  padding: 5vh;
-}
 .focus {
   padding: 5px 10px;
   border-radius: 1rem;
@@ -95,4 +94,31 @@ img {
 .focus:focus {
   background-color: rgb(196, 173, 145);
   color: black;
+}
+
+.subtitleDos {
+  /* funciona para texto solo */
+  border: 2px solid #8c54fb;
+  background: linear-gradient(to right, #f0a7b3, #66169f);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-align: center;
+  font-size: 40px;
+}
+
+main {
+  padding-top: 20vh;
+}
+img {
+  width: 30%;
+  height: 30%;
+  border-radius: 10%;
+  display: block;
+  margin: 0 auto;
+}
+
+.formulario {
+  background-color: rgb(232, 206, 172);
+  padding: 5vh;
 }
